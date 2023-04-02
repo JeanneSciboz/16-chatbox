@@ -35,4 +35,14 @@ img {
   padding: 10px;
 }
 
+.message-box .message-content {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
 
+.message-box {
+  margin-bottom: 10px;
+  width: 75%;
+  margin: 0 25px 25px;
+}
