@@ -8,3 +8,31 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.chat-container {
+  max-width: 300px;
+  margin: auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #1E1314;
+  color: white;
+}
+
+.message-box-casey .message-content{
+  background-color: #631C16;
+  padding: 10px;
+}
+
+.message-box-casey {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.message-box-unknown .message-content{
+  background-color: #4A4747;
+  padding: 10px;
+}
+
+
