@@ -18,11 +18,13 @@ img {
   align-items: flex-start;
   background-color: #1E1314;
   color: white;
+  font-family: 'Lato', sans-serif;
 }
 
 .message-box-casey .message-content{
   background-color: #631C16;
   padding: 10px;
+  margin-left: 40px;
 }
 
 .message-box-casey {
@@ -33,16 +35,29 @@ img {
 .message-box-unknown .message-content{
   background-color: #4A4747;
   padding: 10px;
+  margin-right: 40px;
 }
 
 .message-box .message-content {
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-bottom: 0;
 }
 
 .message-box {
   margin-bottom: 10px;
-  width: 75%;
+  
   margin: 0 25px 25px;
+}
+
+.message-hour {
+  font-size: 10px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+p {
+  margin-bottom: 2px;
+
 }
