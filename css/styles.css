@@ -1,7 +1,7 @@
 body {
   max-width: 320px;
   margin: auto;
-  background: #ddd;
+  background: white;
 }
 
 img {
@@ -19,36 +19,32 @@ img {
   background-color: #1E1314;
   color: white;
   font-family: 'Lato', sans-serif;
-  letter-spacing: px;
   font-size: 14px;
 }
 
 .message-box-casey .message-content{
   background-color: #631C16;
-  padding: 10px;
   margin-left: 40px;
 }
 
 .message-box-casey {
   align-self: flex-end;
-  text-align: right;
+  text-align: left;
 }
 
 .message-box-unknown .message-content{
   background-color: #4A4747;
-  padding: 10px;
   margin-right: 40px;
 }
 
 .message-box .message-content {
-  padding: 10px;
+  padding: 1px 10px;
   border-radius: 20px;
   margin-bottom: 0;
 }
 
 .message-box {
   margin-bottom: 10px;
-  
   margin: 0 25px 25px;
 }
 
@@ -66,10 +62,10 @@ p {
 
 .message-box-call {
   background-color: #2D2828;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 10px;
   color: #525252;
-  
+  align-self: center;
  }
 
  h1 {
@@ -86,8 +82,20 @@ p {
 
  img {
   border-radius: 20px;
+  margin-top: 10px;
  }
 
  .message-box-casey .message-hour {
   color: #CB4C53;
+ }
+
+ .message-box-send {
+  background-color: #2D2828;
+  border-radius: 20px;
+  padding: 10px 190px 10px 10px;
+  color: #525252;
+  margin: 6px;
+  font-size: 20px;
+  text-align: left;
+  position: sticky;
  }
